@@ -1,7 +1,9 @@
 # Assignment API
 
-[Backend Live Preview](https://website-name.com)
-Frontend Live Preview:
+- [Backend Live Preview](https://assignmentfs-backend.onrender.com/ping)
+  | [Backend Code](https://github.com/DE4D-P00L/AssignmentFS_Backend.git)
+- [Frontend Live Preview](https://assignmentfs-frontend.onrender.com/)
+  | [Frontend Code](https://github.com/DE4D-P00L/AssignmentFS_Frontend.git)
 
 ## Description:
 
