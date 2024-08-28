@@ -7,12 +7,16 @@ import cardRoutes from "./routes/card.routes.js";
 const app = express();
 const port = process.env.PORT || 3000;
 
+//Disabled for testing api through browser add it in cors like
+//app.use(cors(corsOptions));
+//on line number 18
 var corsOptions = {
   origin: process.env.FRONTEND_URL,
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
+
 app.use(express.json()); //Allow express to parse JSON
-app.use(cors(corsOptions)); //Allow cors policies for frontend
+app.use(cors()); //Allow cors policies for frontend
 
 // Ping Pong! test api route
 app.get("/ping", (req, res) => {

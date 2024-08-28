@@ -1,5 +1,8 @@
 # Assignment API
 
+[Backend Live Preview](https://website-name.com)
+Frontend Live Preview:
+
 ## Description:
 
 This Node.js Express project provides a RESTful API for managing cards. It uses Mongoose for MongoDB interactions, CORS for cross-origin requests, dotenv for environment variables, Zod for data validation, and Nodemon for development convenience. The API includes endpoints for creating, retrieving, and searching cards.
