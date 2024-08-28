@@ -20,7 +20,7 @@ This Node.js Express project provides a RESTful API for managing cards. It uses 
 2. Install dependencies:
 
 ```bash
-    npn install
+    npm install
 ```
 
 ### Environment Variables:
@@ -28,10 +28,11 @@ This Node.js Express project provides a RESTful API for managing cards. It uses 
 Create a `.env` file in the project root and add the following environment variable:
 
 ```
-    MONGO_URI=mongodb://your-mongodb-uri
+    MONGO_URI=your-mongodb-uri
+    FRONTEND_URL=your-frontend-url
 ```
 
-Replace your-mongodb-uri with your actual MongoDB connection string.
+Replace your-mongodb-uri with your actual MongoDB connection string and your-frontend-url with your front domain or add http://localhost:5173 in case of development server.
 
 ### Usage:
 
